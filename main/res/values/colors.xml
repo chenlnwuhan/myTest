@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="spinner_title_color">#ffbe0004</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+    <color name="titile_name_color">#ffffff</color>
+    <color name="titile_tip_color">#eb4a3f</color>
+    <color name="title_background_color">#00000000</color>
+    <color name="bottom_navigation_text_color">#a5afb6</color>
+    <color name="bottom_navigation_text_color_foucs">#eb4a3f</color>
+    <color name="title_item_text_isselted_color">#fced05</color>
+    <color name="gridview_item_custom_check">#fd7275</color>
+    <color name="gridview_item_custom_uncheck">#dddddd</color>
+    <color name="list_item_definition_wuxiao">#eb4a3f</color>
+    <color name="list_item_definition_youxiao">#43ce64</color>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sales.realestate.android"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.sales.realestate.android.AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name="com.sales.realestate.android.demo.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/MyCustomTheme"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.sales.realestate.android.demo.LoginAty"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.sales.realestate.android.demo.TableAty"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.sales.realestate.android.demo.SaleAty"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.sales.realestate.android.demo.MoreAty"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.sales.realestate.android.demo.MailAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.sales.realestate.android.demo.CustomAnalyseAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".demo.CustomAnalyseDetailAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".demo.MailDetailAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".demo.CustomAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".demo.AddresListAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".demo.ToDoListAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".demo.ToDoListDetailAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".demo.CustomDefinitionAty"
+            android:label="@string/app_name"
+            android:theme="@style/MyCustomTheme"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".demo.HttpActivity" />
+        <activity android:name="com.sales.realestate.android.demo.BitmapActivityivity" />
+        <activity android:name="com.sales.realestate.android.demo.DBActivityivity" />
+
+        <activity android:name="com.sales.realestate.android.demo.widget.KJSlidingMenuDemoactivity" />
+        <activity android:name="com.sales.realestate.android.demo.widget.KJListViewDemo" />
+        <activity android:name="com.sales.realestate.android.demo.widget.ScaleImageDemo" />
+        <activity android:name="com.sales.realestate.android.demo.widget.NewListViewDemo" />
+    </application>
+
+</manifest>

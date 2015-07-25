@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcdada"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textview_mail_detail_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:singleLine="false"
+            android:text="Android中我们为了实现文本的滚动可以在ScrollView中嵌入一个TextView，其实TextView自己也可以实现多行滚动的，毕竟ScrollView必须只能有一个直接的子类布局。只要在layout中简单设置几个属性就可以轻松实现"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textview_mail_detail_date"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textview_mail_detail_info"
+            android:layout_marginBottom="14dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="14dp"
+            android:singleLine="false"
+            android:text="07-20    13:30"
+            android:textColor="#b9b9b9"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>
